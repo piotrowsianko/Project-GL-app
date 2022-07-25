@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: my-pod
+spec:
+   containers:
+   - name: my-container-1
+     image: piotrowsianko/gl-project-1:mytag
+     ports:
+     - containerPort: 6379
